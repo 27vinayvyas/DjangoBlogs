@@ -2,12 +2,12 @@ from django.urls import reverse
 from django.urls import resolve
 from django.test import TestCase
 
-from .views import home
-from .views import board_topics
-from .views import new_topic
-from .models import Board, Topic, Post
+from ..views import home
+from ..views import board_topics
+from ..views import new_topic
+from ..models import Board, Topic, Post
 from django.contrib.auth.models import User
-from .forms import NewTopicForm
+from ..forms import NewTopicForm
 
 
 
